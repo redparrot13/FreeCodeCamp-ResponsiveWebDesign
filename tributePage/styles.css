@@ -1,0 +1,96 @@
+
+@media (max-width: 600px) {
+    body {
+      font-size: 14px; 
+    }
+  }
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 10px;
+  
+  }
+  #main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #d8c6c6; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  #title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-size: 18px;
+    margin: 20px;
+  }
+  #img-div {
+    text-align: center; 
+    margin: 20px 0;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #c78f8f; 
+    border-radius: 10px; 
+    
+  }
+  #img-caption {
+    margin-top: 5px;
+    font-style: italic;
+    font-size:12px;
+  }
+  #tribute-info {
+    background-color: #e0e0e0; 
+    padding: 20px;
+    margin-top: 20px;
+    border:5px solid #c78f8f;
+    border-radius: 10px;
+  }
+   .tribute-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+.list {
+    list-style: none; 
+    padding: 10px; 
+  }
+
+  .list-item-date {
+    font-weight: bold;
+    color: #0c0c0c; 
+    margin: 2px;
+    
+  }
+
+  .list-item-fact {
+    margin-left: 10px; 
+    display: list-item;
+    padding: 10px;
+  }
+  
+  #tribute-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #3366cc;
+    text-decoration: none;
+  }
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
