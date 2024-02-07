@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Product Landing Page</title>
 </head>
+
 <body>
 
-        <header id="header">
-<img id="header-img">
-<nav id="nav-bar">
-    <div class="nav-link">
-About
-    </div>
-    <div class="nav-link">
-      Products  
-    </div>
-    <div class="nav-link">
-        Contact Us
-    </div>
-</nav>
-        </header>
-        <main id="main-content">
+    <header id="header">
+        <img id="header-img" src="images/vacuum1.jpg">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#about">Section 1</a>
+            <a class="nav-link" href="#products">Section 2</a>
+            <a class="nav-link" href="#email-section">Section 3</a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section id="about">
+            <h2 class="section-title">About</h2>
+            <p>Vacuum cleaners, commonly known as vacuums, play a pivotal role in maintaining cleanliness and hygiene within homes and commercial spaces. These electric devices utilize suction power to efficiently remove dust, dirt, and debris from various surfaces, including carpets, hardwood floors, and upholstery. Equipped with a combination of brushes, filters, and powerful motors, vacuums not only eliminate visible particles but also contribute to improving indoor air quality by capturing allergens and microscopic particles. Over the years, advancements in vacuum technology have led to the development of various types, including upright, canister, robotic, and handheld vacuums, each designed to cater to specific cleaning needs. With their convenience, versatility, and ability to streamline the cleaning process, vacuums have become indispensable tools for households and businesses alike.
+
+            </p>
+
+        </section>
+        <section id="products">
+            <h2 class="section-title">Vacuum Video</h2>
+            <video id="video" width="640" height="360" controls src="https://www.youtube.com/watch?v=ejaVz-ZR-a8"
+                type="video">
+
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+        <section id="email-section">
+            <h2 class="section-title">Want to Know More? </h2>
+            <h4>Enter your email below to recieve weekly vacuum videos</h4>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" id="email-label">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit">
+
+
+            </form>
+
+        </section>
     </main>
-    
+    <footer id="footer">
+
+    </footer>
+
 </body>
+
 </html>
