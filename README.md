@@ -1,0 +1,1 @@
+This repository showcases my projects completed as part of the FreeCodeCamp Responsive Web Design Certification. Each project corresponds to a specific challenge and demonstrates my skills in HTML and CSS.
