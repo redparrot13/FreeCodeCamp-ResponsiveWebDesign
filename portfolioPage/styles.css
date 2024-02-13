@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --accent-color: #28A745;
+    --background-color: #FFFFFF;
+    --text-color: #333333;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
