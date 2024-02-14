@@ -11,7 +11,9 @@ body {
     color: #333;
 }
 
-
+#navbar {
+    position:fixed;
+}
 nav {
     position: fixed;
     display: flex;
