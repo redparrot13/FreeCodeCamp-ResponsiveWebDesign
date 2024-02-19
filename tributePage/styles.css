@@ -94,3 +94,7 @@ body {
   #tribute-link:hover {
     text-decoration: underline;
   }
+
+  #disclaimer {
+    font-size: 8px;;
+  }
